@@ -1,16 +1,22 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { assets } from "../assets/assets";
 import { Link, NavLink } from "react-router-dom";
+import { ShopContext } from "../context/ShopContext";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
+
+  const { setShowSearch } = useContext(ShopContext);
+
   return (
     <div className="flex items-center justify-between py-0 font-medium">
-      <img
-        src={assets.logo}
-        className="h-16 w-24 sm:h-20 sm:w-28 md:h-28 md:w-40 cursor-pointer"
-        alt=""
-      />
+      <Link to="/">
+        <img
+          src={assets.logo}
+          className="h-16 w-24 sm:h-20 sm:w-28 md:h-28 md:w-40 cursor-pointer"
+          alt=""
+        />
+      </Link>
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
         <li>
           <NavLink
@@ -71,6 +77,7 @@ const Navbar = () => {
       </ul>
       <div className="flex items-center gap-6">
         <img
+          onClick={() => setShowSearch(true)}
           src={assets.search_icon}
           className="w-4 sm:w-5 cursor-pointer"
           alt=""
@@ -122,29 +129,53 @@ const Navbar = () => {
           </div>
           <NavLink
             onClick={() => setVisible(false)}
-            className="py-2 pl-6 border"
             to="/"
+            className={({ isActive }) =>
+              `py-2 pl-6 border ${
+                isActive
+                  ? "bg-black text-white"
+                  : "text-gray-700 hover:text-orange-700"
+              }`
+            }
           >
             HOME
           </NavLink>
           <NavLink
             onClick={() => setVisible(false)}
-            className="py-2 pl-6 border"
             to="/collection"
+            className={({ isActive }) =>
+              `py-2 pl-6 border ${
+                isActive
+                  ? "bg-black text-white"
+                  : "text-gray-700 hover:text-orange-700"
+              }`
+            }
           >
             COLLECTION
           </NavLink>
           <NavLink
             onClick={() => setVisible(false)}
-            className="py-2 pl-6 border"
             to="/about"
+            className={({ isActive }) =>
+              `py-2 pl-6 border ${
+                isActive
+                  ? "bg-black text-white"
+                  : "text-gray-700 hover:text-orange-700"
+              }`
+            }
           >
             ABOUT
           </NavLink>
           <NavLink
             onClick={() => setVisible(false)}
-            className="py-2 pl-6 border"
             to="/contact"
+            className={({ isActive }) =>
+              `py-2 pl-6 border ${
+                isActive
+                  ? "bg-black text-white"
+                  : "text-gray-700 hover:text-orange-700"
+              }`
+            }
           >
             CONTACT
           </NavLink>
