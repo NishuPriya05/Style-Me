@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from "react";
+import PropTypes from "prop-types";
 import { ShopContext } from "../context/ShopContext";
 import Title from "./Title";
 import ProductItem from "./ProductItem";
@@ -36,6 +37,11 @@ const RelatedProducts = ({ category, subCategory }) => {
       </div>
     </div>
   );
+};
+
+RelatedProducts.propTypes = {
+  category: PropTypes.string.isRequired,
+  subCategory: PropTypes.string.isRequired,
 };
 
 export default RelatedProducts;
