@@ -10,7 +10,6 @@ import {
   PlaceOrder,
   Product,
   Verify,
-  Profile,
 } from "./pages/index.js";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer.jsx";
@@ -35,7 +34,6 @@ const App = () => {
         <Route path="/place-order" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
         <Route path="/verify" element={<Verify />} />
-        <Route path="/myprofile" element={<Profile />} />
       </Routes>
       <Footer />
     </div>

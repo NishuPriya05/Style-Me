@@ -196,7 +196,7 @@ export const products = [
     _id: "aaaah",
     name: "Men Round Neck Pure Cotton T-shirt",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and full sleeves, worn as an undershirt or outer garment.",
     price: 140,
     image: [p_img8],
     category: "Men",
@@ -287,7 +287,7 @@ export const products = [
     _id: "aaaao",
     name: "Men Tapered Fit Flat-Front Trousers",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "Upgrade your wardrobe with these stylish and comfortable trousers, designed for a perfect blend of elegance and versatility. Crafted from premium fabric, they offer a tailored fit with all-day comfort, making them ideal for both casual and formal occasions.",
     price: 140,
     image: [p_img15],
     category: "Men",
@@ -313,7 +313,7 @@ export const products = [
     _id: "aaaaq",
     name: "Men Tapered Fit Flat-Front Trousers",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "Elevate your style with these comfortable, tailored trousers, perfect for both casual and formal occasions.",
     price: 150,
     image: [p_img17],
     category: "Men",
@@ -352,7 +352,7 @@ export const products = [
     _id: "aaaat",
     name: "Women Palazzo Pants with Waist Belt",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "These women’s palazzo pants feature a flattering wide-leg design and come with a stylish waist belt for an added touch of elegance and comfort. Perfect for both casual and dressy occasions.",
     price: 190,
     image: [p_img20],
     category: "Women",
@@ -430,7 +430,7 @@ export const products = [
     _id: "aaaaz",
     name: "Women Zip-Front Relaxed Fit Jacket",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "This women's zip-front relaxed fit jacket combines comfort and style with its casual design and easy-to-wear fit. Perfect for layering, it offers both warmth and versatility for everyday wear.",
     price: 220,
     image: [p_img26],
     category: "Women",
@@ -456,7 +456,7 @@ export const products = [
     _id: "aaabb",
     name: "Men Slim Fit Relaxed Denim Jacket",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "This men’s slim fit relaxed jacket combines a modern silhouette with a laid-back feel. Its tailored design offers a sleek, stylish look, making it perfect for both casual and smart-casual occasions.",
     price: 230,
     image: [p_img28],
     category: "Men",
@@ -599,7 +599,7 @@ export const products = [
     _id: "aaabm",
     name: "Men Printed Plain Cotton Shirt",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "This men’s printed plain cotton shirt combines comfort and style, featuring a soft cotton fabric and a subtle print for a relaxed yet trendy look. Perfect for both casual and semi-formal occasions",
     price: 260,
     image: [p_img39],
     category: "Men",
