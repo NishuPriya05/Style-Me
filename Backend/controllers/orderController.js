@@ -8,7 +8,10 @@ import Stripe from "stripe";
 const currency = "inr";
 const deliveryCharge = 10;
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const stripe = new Stripe(
+  process.env.STRIPE_SECRET_KEY ||
+    "sk_test_51POgPm05jhqmd2ImXGsGIzJRIH6xoaW9TWKMEoNoWQ0JQq5gzvyRhDi8VZaYBkzME4wVeDEN5zSAsfbvg2SgNRpW00kzhB0X9s"
+);
 
 /* const razorpayInstance = new razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
