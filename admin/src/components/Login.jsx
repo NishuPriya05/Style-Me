@@ -61,6 +61,17 @@ const Login = ({ setToken }) => {
             Login
           </button>
         </form>
+
+        {/* 📌 Display Admin Credentials Below the Form */}
+        <div className="mt-4 p-3 bg-gray-100 rounded-md text-sm">
+          <p className="font-semibold">🔑 Want to explore the admin panel? Use:</p>
+          <p>
+            📩 <strong>Email:</strong> admin@styleme.com
+          </p>
+          <p>
+            🔒 <strong>Password:</strong> ldGj9s1sI7
+          </p>
+        </div>
       </div>
     </div>
   );
