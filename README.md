@@ -112,12 +112,6 @@ Copy the .env.sample file and rename it to .env, then fill in the required crede
 
 Edit the .env file with your API keys and database connection details. Example:
 
-##### VITE_MONGO_URI=your_mongodb_connection_string
-
-##### VITE_JWT_SECRET=your_secret_key
-
-##### VITE_STRIPE_SECRET=your_stripe_key
-
 **Note:** Make sure not to share your .env file publicly or commit it to version control.
 
 ## **Features Breakdown with Screenshots**
