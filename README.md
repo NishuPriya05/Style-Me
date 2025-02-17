@@ -27,7 +27,7 @@
 - **User :** testuser@gmail.com | Password: 123456789
 - **Admin :** admin@styleme.com | Password: ldGj9s1sI7g
 
-> **Note :** You can only create an account for the User role via the Sign Up page. The Admin account is predefined and is used for testing the role.
+ **Note :** You can only create an account for the User role via the Sign Up page. The Admin account is predefined and is used for testing the role.
 
 ### **User Features**
 
