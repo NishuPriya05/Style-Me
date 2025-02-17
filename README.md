@@ -2,7 +2,7 @@
 
 ## **E-Commerce Platform**
 
-### **Description**
+## **Description**
 
 This single-page application (SPA) includes multiple pages:
 
@@ -15,9 +15,10 @@ This single-page application (SPA) includes multiple pages:
 - **Product Search:** Users can search for products by typing keywords or by category.
 - **Product Filter:** Users can filter products based on the selected category.
 
-Additional features include:
+### Additional features include:
 
-- **Admin Panel:**
+#### **Admin Panel:**
+
 - Manage orders and update their status to "shipped",etc.
 - Add, update and remove products also.
 
@@ -26,7 +27,7 @@ Additional features include:
 - **User**: testuser@gmail.com | Password: 123456789
 - **Admin**: admin@styleme.com | Password: ldGj9s1sI7g
 
-Note: You can only create an account for the User role via the Sign Up page. The Admin account is predefined and is used for testing the role.
+**Note:** You can only create an account for the User role via the Sign Up page. The Admin account is predefined and is used for testing the role.
 
 ### **User Features**
 
@@ -39,7 +40,7 @@ Note: You can only create an account for the User role via the Sign Up page. The
 - **Product Search:** Users can search for products by typing keywords or by category.
 - **Product Filter:** Users can filter products based on the selected category.
 
-### **Technologies Used**
+## **Technologies Used**
 
 ## **Frontend**
 
@@ -66,3 +67,101 @@ Note: You can only create an account for the User role via the Sign Up page. The
 - **Validator**: `^13.12.0`
 
 > **Note:** These dependencies are necessary to run the project. To install them, use `npm install` or `yarn install`.
+
+## **Usage**
+
+This is a web application. Simply land on the webpage and start using it. For additional features, users need to log in.
+
+## **Installation & Setup Guide**
+
+### **Clone the Repository**
+
+git <span style="color:#CD7F32">clone</span> https://github.com/NishuPriya05/Style-Me
+
+<span style="color:#CD7F32">cd</span> Style-Me
+
+### **Install Dependencies**
+
+#### **For the frontend:**
+
+<span style="color:#CD7F32">cd</span> Frontend
+
+npm install
+
+npm run dev
+
+#### **For the backend:**
+
+<span style="color:#CD7F32">cd</span> Backend
+
+npm install
+
+npm run server
+
+#### **For the Admin:**
+
+<span style="color:#CD7F32">cd</span> admin
+
+npm install
+
+npm run dev
+
+### **Set Up Environment Variables**
+
+Copy the .env.sample file and rename it to .env, then fill in the required credentials.
+
+Edit the .env file with your API keys and database connection details. Example:
+
+##### VITE_MONGO_URI=your_mongodb_connection_string
+
+##### VITE_JWT_SECRET=your_secret_key
+
+##### VITE_STRIPE_SECRET=your_stripe_key
+
+**Note:** Make sure not to share your .env file publicly or commit it to version control.
+
+## **Features Breakdown with Screenshots**
+
+## User Panel Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/homepage.png)
+
+### 🛒 Cart Page
+
+![Cart Page](screenshots/cart.png)
+
+### 🛒 Shop by Category
+
+![Checkout Page](screenshots/collection.png)
+
+### ✅ Checkout Page
+
+![Checkout Page](screenshots/checkout.png)
+
+## Admin Panel Screenshots
+
+### 📊 Add Items
+
+![Add Items](screenshots/additems.png)
+
+### 🛒 Manage Products
+
+![Manage Products](screenshots/listitems.png)
+
+### 📦 Orders Management
+
+![Orders Management](screenshots/ordermanagement.png)
+
+## **Deployment Guide:**
+
+### **🌍 Live Deployment Links**
+
+### _🖥️ Frontend:_ https://style-me-pi.vercel.app/
+
+### _🔧 Admin:_ https://style-me-adminpanel.vercel.app/
+
+## **Contributing Guidelines**
+
+**Contributions are welcome! Please fork this repo and submit a pull request with a clear description of the changes.**
