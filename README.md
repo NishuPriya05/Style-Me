@@ -4,7 +4,7 @@
 
 ## **Description**
 
-This single-page application (SPA) includes multiple pages:
+**This single-page application (SPA) includes multiple pages:**
 
 - **Home Page:** Displays products for users to browse.
 - **Product Detail Page:** Shows detailed information about a product.
@@ -24,10 +24,10 @@ This single-page application (SPA) includes multiple pages:
 
 ### **Test Users**
 
-- **User**: testuser@gmail.com | Password: 123456789
-- **Admin**: admin@styleme.com | Password: ldGj9s1sI7g
+- **User :** testuser@gmail.com | Password: 123456789
+- **Admin :** admin@styleme.com | Password: ldGj9s1sI7g
 
-**Note:** You can only create an account for the User role via the Sign Up page. The Admin account is predefined and is used for testing the role.
+> **Note :** You can only create an account for the User role via the Sign Up page. The Admin account is predefined and is used for testing the role.
 
 ### **User Features**
 
@@ -66,59 +66,54 @@ This single-page application (SPA) includes multiple pages:
 - **Stripe**: `^17.6.0`
 - **Validator**: `^13.12.0`
 
-> **Note:** These dependencies are necessary to run the project. To install them, use `npm install` or `yarn install`.
+> **Note :** These dependencies are necessary to run the project. To install them, use `npm install` or `yarn install`.
 
 ## **Usage**
 
-This is a web application. Simply land on the webpage and start using it. For additional features, users need to log in.
+**This is a web application. Simply land on the webpage and start using it. For additional features, users need to log in.**
 
 ## **Installation & Setup Guide**
 
 ### **Clone the Repository**
 
-git <span style="color:#CD7F32">clone</span> https://github.com/NishuPriya05/Style-Me
-
-<span style="color:#CD7F32">cd</span> Style-Me
+```
+git clone https://github.com/NishuPriya05/Style-Me
+cd Style-Me
+```
 
 ### **Install Dependencies**
 
 #### **For the frontend:**
 
-<span style="color:#CD7F32">cd</span> Frontend
-
+```
+cd Frontend
 npm install
-
 npm run dev
+```
 
 #### **For the backend:**
 
-<span style="color:#CD7F32">cd</span> Backend
-
+```
+cd Backend
 npm install
-
 npm run server
+```
 
 #### **For the Admin:**
 
-<span style="color:#CD7F32">cd</span> admin
-
+```
+cd admin
 npm install
-
 npm run dev
+```
 
 ### **Set Up Environment Variables**
 
 Copy the .env.sample file and rename it to .env, then fill in the required credentials.
 
-Edit the .env file with your API keys and database connection details. Example:
+Edit the .env file with your API keys and database connection details.
 
-##### VITE_MONGO_URI=your_mongodb_connection_string
-
-##### VITE_JWT_SECRET=your_secret_key
-
-##### VITE_STRIPE_SECRET=your_stripe_key
-
-**Note:** Make sure not to share your .env file publicly or commit it to version control.
+> **Note:** Make sure not to share your .env file publicly or commit it to version control.
 
 ## **Features Breakdown with Screenshots**
 
@@ -158,10 +153,10 @@ Edit the .env file with your API keys and database connection details. Example:
 
 ### **🌍 Live Deployment Links**
 
-### _🖥️ Frontend:_ https://style-me-pi.vercel.app/
+#### _🖥️ Frontend :_ https://style-me-pi.vercel.app/
 
-### _🔧 Admin:_ https://style-me-adminpanel.vercel.app/
+#### _🔧 Admin :_ https://style-me-adminpanel.vercel.app/
 
-## **Contributing Guidelines**
+## **Contributing Guidelines :**
 
 **Contributions are welcome! Please fork this repo and submit a pull request with a clear description of the changes.**
