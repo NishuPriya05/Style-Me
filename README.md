@@ -113,11 +113,7 @@ Copy the .env.sample file and rename it to .env, then fill in the required crede
 
 Edit the .env file with your API keys and database connection details.
 
-<<<<<<< HEAD
 > **Note:** Make sure not to share your .env file publicly or commit it to version control.
-=======
-**Note:** Make sure not to share your .env file publicly or commit it to version control.
->>>>>>> 95fe4c5ad3331bcd93c29b2a91013435cb1e1fcd
 
 ## **Features Breakdown with Screenshots**
 
