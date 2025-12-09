@@ -10,8 +10,11 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
   const currency = "₹";
   const delivery_fee = 10;
-  const backendUrl =
-    import.meta.env.VITE_BACKEND_URL || "https://style-me-backend.vercel.app/";
+  const rawBackendUrl =
+    import.meta.env.VITE_BACKEND_URL || "https://style-me-backend.vercel.app";
+  const backendUrl = String(rawBackendUrl)
+    .replace(/\/+$|^\s+|\s+$/g, "")
+    .replace(/\s+/g, "");
 
   const [search, setSearch] = useState("");
   const [showSearch, setShowSearch] = useState(false);
@@ -109,7 +112,7 @@ const ShopContextProvider = (props) => {
 
   const getProductsData = async () => {
     try {
-      const response = await axios.get(backendUrl + "api/product/list");
+      const response = await axios.get(backendUrl + "/api/product/list");
 
       if (response.data.success) {
         setProducts(response.data.products);
