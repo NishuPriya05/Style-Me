@@ -73,6 +73,7 @@ app.use(
       "https://style-me-pi.vercel.app",
       "https://style-me-frontend.vercel.app",
       "https://style-me-admin.vercel.app",
+      "https://style-me-adminpanel.vercel.app",
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
