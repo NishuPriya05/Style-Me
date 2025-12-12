@@ -13,7 +13,7 @@
 // const app = express();
 // const port = process.env.PORT || 4000;
 // connectDB();
-// connectCloudinary();      
+// connectCloudinary();
 
 // // middlewares
 // app.use(express.json());
@@ -44,7 +44,6 @@
 
 // app.listen(port, () => console.log("Server started on PORT: " + port));
 
-
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
@@ -70,6 +69,8 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "http://localhost:3000",
+      // add your deployed frontend origin(s) here
+      "https://style-me-pi.vercel.app",
       "https://style-me-frontend.vercel.app",
       "https://style-me-admin.vercel.app",
     ],
